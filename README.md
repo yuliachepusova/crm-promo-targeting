@@ -14,17 +14,17 @@ This project identifies the 100 most promising customers for a limited-time groc
 The solution combines RFM analysis with promotion engagement metrics to build an interpretable customer scoring model for campaign targeting.
 
 Raw Data
-    ↓
+    -->
 Data Cleaning
-    ↓
+    -->
 Feature Engineering
-    ↓
+    -->
 RFM Analysis
-    ↓
+    -->
 Promotion Metrics
-    ↓
+    -->
 Customer Scoring
-    ↓
+    -->
 Top 100 Customers
 
 ---
