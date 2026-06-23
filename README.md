@@ -8,7 +8,6 @@
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ![Project Workflow](images/pipeline.png)
-
 ## About
 
 This project develops an interpretable CRM analytics framework to rank customers for a limited-time grocery promotion using transactional, customer, product, and promotion data.
