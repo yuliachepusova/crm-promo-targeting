@@ -1,35 +1,27 @@
-# CRM Promotion Targeting for a Limited-Time Grocery Promotion
+# CRM Promotion Targeting
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-purple)
 ![CRM Analytics](https://img.shields.io/badge/CRM-Analytics-success)
-![RFM Analysis](https://img.shields.io/badge/RFM-Customer_Segmentation-orange)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
+![Project Workflow](images/pipeline.png)
+
 ## About
 
-This project identifies the 100 most promising customers for a limited-time grocery promotion using transactional, customer, product, and promotion data.
+This project develops an interpretable CRM analytics framework to rank customers for a limited-time grocery promotion using transactional, customer, product, and promotion data.
 
 The solution combines RFM analysis with promotion engagement metrics to build an interpretable customer scoring model for campaign targeting.
 
-Raw Data
-    -->
-Data Cleaning
-    -->
-Feature Engineering
-    -->
-RFM Analysis
-    -->
-Promotion Metrics
-    -->
-Customer Scoring
-    -->
-Top 100 Customers
-
 ---
 
-## Business Problem
+## Business Context
+
+This project was completed as part of a CRM Analytics technical assessment.
+
+The challenge was to identify 100 customers for a limited-time promotional campaign using five relational datasets without any additional documentation or data dictionary.
+
 
 A grocery retailer plans a limited-time promotion but can target only 100 customers.
 
@@ -43,17 +35,19 @@ Rather than relying on a single metric, the project combines several behavioural
 
 The analysis uses five datasets:
 
-- Customer
-- Sales
-- Promotion
-- Articles
-- Account
+| Dataset   | Description                  |
+| --------- | ---------------------------- |
+| Customer  | Customer master data         |
+| Sales     | Transaction history          |
+| Promotion | Historical promotions        |
+| Articles  | Product information          |
+| Account   | Customer account information |
 
 ---
 
 ## Methodology
 
-The analysis consists of four main stages:
+The analytical workflow consists of four stages:
 
 ### 1. Data Preparation
 
@@ -95,7 +89,7 @@ The project produces:
 - final customer score
 - ranked Top 100 customer list
 
-Output:
+The final deliverable is a ranked list of the 100 highest-scoring customers for campaign execution:
 
 ```
 outputs/
@@ -119,13 +113,24 @@ Given the business objective and available data, an interpretable scoring framew
 ## Repository Structure
 
 ```
+crm-promotion-targeting/
+│
 ├── README.md
+├── requirements.txt
+├── .gitignore
+│
 ├── notebooks/
 │   └── local_grocery_100customers_limitedOffer.ipynb
+│
 ├── outputs/
 │   └── top_100_customers.csv
-├── requirements.txt
-└── .gitignore
+│
+├── images/
+│   ├── pipeline.png
+│
+└── data/
+    ├── README.md
+    └── .gitkeep
 ```
 
 ---
@@ -134,10 +139,27 @@ Given the business objective and available data, an interpretable scoring framew
 
 - CRM Analytics
 - Customer Analytics
-- Customer Targeting
-- RFM Analysis
+- Marketing Analytics
+- Customer Scoring
 - Feature Engineering
 - Data Cleaning
-- Data Validation
 - Exploratory Data Analysis (EDA)
-- Marketing Analytics
+- RFM Analysis
+
+## Business Value
+
+The proposed scoring framework enables targeted campaign execution using transparent business rules.
+
+Compared with selecting customers based on a single metric, the combined scoring approach incorporates purchasing behaviour and promotion engagement, resulting in a more balanced and explainable customer selection.
+
+## Technologies
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+Jupyter Notebook
