@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-purple)
-![NumPy](https://img.shields.io/badge/Pandas-Data_Analysis-purple)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific_Computing-blue)
 ![CRM Analytics](https://img.shields.io/badge/CRM-Analytics-success)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626)
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
