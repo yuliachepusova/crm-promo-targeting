@@ -130,16 +130,6 @@ Given the business objective and available data, an interpretable scoring framew
 
 ---
 
-## Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Jupyter Notebook
-
----
-
 ## Skills Demonstrated
 
 - CRM Analytics
